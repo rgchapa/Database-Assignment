@@ -1,0 +1,14 @@
+CREATE DATABASE cookies;
+
+
+CREATE TABLE flavors(Id integer PRIMARY KEY, Name text);
+
+INSERT INTO flavors VALUES(1, 'Chocolate Chip');
+INSERT INTO flavors VALUES(2, 'Peanut Butter');
+INSERT INTO flavors VALUES(3, 'Oatmeal Raisin');
+INSERT INTO flavors VALUES(4, 'Double Chocolate');
+COMMIT;
+
+SELECT * FROM flavors;
+
+SHOW TABLES;
